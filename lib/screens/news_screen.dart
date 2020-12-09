@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portal_noticias_app/viewmodels/articles_list_view_model.dart';
-import 'package:portal_noticias_app/widgets/news_grid.dart';
+import 'package:portal_noticias_app/widgets/grid_news.dart';
 import 'package:provider/provider.dart';
 
 class NewsScreen extends StatefulWidget {
@@ -20,17 +20,12 @@ class _NewsScreenState extends State<NewsScreen> {
     var listViewModel = Provider.of<ArticlesListViewModel>(context);
 
     return Scaffold(
-      appBar: AppBar(
-        actions: [
-          Icon(Icons.more_vert)
-        ],
-      ),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 30),
+              padding: const EdgeInsets.only(left: 30, top: 20),
               child: Text(
                 "Notícias",
                 style: TextStyle(
@@ -39,11 +34,11 @@ class _NewsScreenState extends State<NewsScreen> {
               ),
             ),
             Divider(
-              color: Color(0xffFF8A30),
+              color: Colors.red,
               height: 40,
               thickness: 8,
               indent: 30,
-              endIndent: 30,
+              endIndent: 10,
             ),
             Padding(
               padding: const EdgeInsets.only(left: 30, top: 15, bottom: 15),
@@ -59,7 +54,7 @@ class _NewsScreenState extends State<NewsScreen> {
              child: GridNews(
                 articles: listViewModel.articles,
              )
-            )
+            ),
           ]
         ),
       )

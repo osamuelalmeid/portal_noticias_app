@@ -19,9 +19,13 @@ class MyApp extends StatelessWidget {
           color: Color(0xffFEFDFD),
           elevation: 0,
           textTheme: TextTheme(
-            title: TextStyle(
-              color: Colors.black
+            headline6: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.bold
             )
+          ),
+          iconTheme: IconThemeData(
+            color: Colors.black
           ),
           actionsIconTheme: IconThemeData(
             color: Colors.black,

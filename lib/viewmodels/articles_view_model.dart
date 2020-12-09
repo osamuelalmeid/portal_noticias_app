@@ -1,7 +1,7 @@
+import 'package:intl/intl.dart';
 import 'package:portal_noticias_app/models/articles.dart';
 
 class ArticlesViewModel {
-  
   Article _article;
 
   ArticlesViewModel({Article article}) : _article = article;
@@ -27,7 +27,7 @@ class ArticlesViewModel {
   }
 
   String get publishedAt {
-    return _article.publishedAt;
+    final datetime = DateFormat("yyyy-mm-ddTHH:mm:ssZ").parse(_article.publishedAt, true);
+    return DateFormat.yMMMMEEEEd("en-us").format(datetime).toString();
   }
-
 }
