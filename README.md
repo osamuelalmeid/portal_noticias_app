@@ -1,4 +1,3 @@
-# portal_noticias_app
 <h2 align="center">
   Portal Notícias App
 </h2>
