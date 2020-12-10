@@ -1,16 +1,38 @@
-# portal_noticias_app
+<h2 align="center">
+  Portal Notícias App
+</h2>
 
-A new Flutter project.
+<p align="center">Portal de Notícias é um projeto de estudo que nasceu com o objetivo de veicular as principais notícias do Brasil, para isso é usado uma API REST do Google que disponibiliza as reportagens, então foi realizado a construção de um aplicativo básico mas muito estratégico.\n\nDesign foi inspirado [nesta página](https://dribbble.com/shots/6087140-News-App-Design).</p>
 
-## Getting Started
+## Como configurar o projeto
 
-This project is a starting point for a Flutter application.
+### Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+Para executar qualquer aplicativo Android construído com Flutter, você precisa configurar os ambientes em sua máquina, você pode fazer isso seguindo o tutorial fornecido pelo Google no [Site Oficial do Flutter](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- SDK Flutter.
+- Android Studio. (para baixar o SDK Android)
+- Xcode. (apenas para desenvolvimento iOS)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Como configurar o projeto
+
+-   Clonar o projeto utilizando o comando abaixo.
+ 
+```shell
+git clone https://github.com/osamuelalmeid/community_app_for_travelers.git
+```
+
+-   Para executar o aplicativo, você precisa ter um emulador online ou um dispositivo conectado e executar o seguinte comando na raiz do aplicativo.
+
+```shell
+flutter run
+```
+
+### Recursos
+-   Flutter.
+-   Dart.
+-   Viewmodel.
+-   Provider.
+-   Dio.
+-   GridView.
+-   Cached Network Image.
