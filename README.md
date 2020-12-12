@@ -2,7 +2,9 @@
   Portal Notícias App
 </h2>
 
-<p align="center">Portal de Notícias é um projeto de estudo que nasceu com o objetivo de veicular as principais notícias do Brasil, para isso é usado uma API REST do Google que disponibiliza as reportagens, então foi realizado a construção de um aplicativo básico mas muito estratégico.\n\nDesign foi inspirado [nesta página](https://dribbble.com/shots/6087140-News-App-Design).</p>
+<p align="center">Portal de Notícias é um projeto de estudo que nasceu com o objetivo de veicular as principais notícias do Brasil, para isso é usado uma API REST do Google que disponibiliza as reportagens, então foi realizado a construção de um aplicativo básico mas muito estratégico.
+
+Design foi inspirado [nesta página](https://dribbble.com/shots/6087140-News-App-Design).</p>
 
 ## Como configurar o projeto
 
