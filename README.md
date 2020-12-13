@@ -6,6 +6,8 @@ Portal de Notícias é um projeto de estudo que nasceu com o objetivo de veicula
 
 Design foi inspirado [nesta página](https://dribbble.com/shots/6087140-News-App-Design).
 
+Acompanhe meus artigos no Medium: https://medium.com/osamuelalmeid
+
 ## Como configurar o projeto
 
 ### Pré-requisitos
